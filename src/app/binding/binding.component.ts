@@ -20,7 +20,7 @@ export class BindingComponent {
   photoURL: string = "https://picsum.photos/200/300"
   title: string = "developer"
 
-
+  disabled: boolean = true
 
   // text interpolation vs property binding
   // source diretly

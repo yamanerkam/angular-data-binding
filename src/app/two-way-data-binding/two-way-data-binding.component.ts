@@ -11,8 +11,14 @@ import { FormsModule } from '@angular/forms';
 })
 export class TwoWayDataBindingComponent {
   salary: number = 0
-
   updateSalary() {
-    console.log(this.salary)
+    console.log('update salary ' + this.salary)
   }
+
+  onChange() {
+
+    console.log("on change " + this.salary)
+  }
+
+
 }

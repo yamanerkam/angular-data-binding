@@ -1,6 +1,7 @@
 <br>
 <br>
-<input type="number" [(ngModel)]="salary">
+<input type="number" (ngModelChange)="onChange()" [(ngModel)]="salary">
+<!-- I can just use change but ngModelChange should be used with ngModel -->
 <br>
 <input type="number" [(ngModel)]="salary">
 <br>
