@@ -8,9 +8,11 @@
 <input type="text" name="title" [value]="title" id="">
 <br>
 
-<!-- event binding -->
-<button (click)="clickMe()">click/button>
+<!-- event-->
+<button (click)="clickMe()">click</button>
 
-    <br>
-    <br>
-    <app-property-binding [age]="34"></app-property-binding>
+<br>
+<!-- multiple event binding -->
+<button (click)="clickMe2(); clickMe()">click 2</button>
+<br>
+<app-property-binding [age]="34"></app-property-binding>

@@ -26,4 +26,8 @@ export class BindingComponent {
     console.log('clicked')
   }
 
+  clickMe2() {
+    console.log('click me 2')
+  }
+
 }
