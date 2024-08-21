@@ -1,9 +1,10 @@
 import { Component, Input, input } from '@angular/core';
+import { PropertyBindingComponent } from "../property-binding/property-binding.component";
 
 @Component({
   selector: 'app-binding',
   standalone: true,
-  imports: [],
+  imports: [PropertyBindingComponent],
   templateUrl: './binding.component.html',
   styleUrl: './binding.component.css'
 })
