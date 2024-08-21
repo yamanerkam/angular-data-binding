@@ -22,6 +22,8 @@ export class BindingComponent {
   // text interpolation vs property binding
   // source diretly
 
-
+  clickMe() {
+    console.log('clicked')
+  }
 
 }
