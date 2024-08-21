@@ -11,6 +11,8 @@ import { TwoWayDataBindingComponent } from "../two-way-data-binding/two-way-data
 })
 export class BindingComponent {
 
+  // change detection
+
   // @Input() age!: number;
 
   // text interpolation => field/property from the coponent class sends it to template side
