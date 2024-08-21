@@ -1,10 +1,11 @@
 import { Component, Input, input } from '@angular/core';
 import { PropertyBindingComponent } from "../property-binding/property-binding.component";
+import { TwoWayDataBindingComponent } from "../two-way-data-binding/two-way-data-binding.component";
 
 @Component({
   selector: 'app-binding',
   standalone: true,
-  imports: [PropertyBindingComponent],
+  imports: [PropertyBindingComponent, TwoWayDataBindingComponent],
   templateUrl: './binding.component.html',
   styleUrl: './binding.component.css'
 })
@@ -18,6 +19,8 @@ export class BindingComponent {
   // property binding => attriribute
   photoURL: string = "https://picsum.photos/200/300"
   title: string = "developer"
+
+
 
   // text interpolation vs property binding
   // source diretly
